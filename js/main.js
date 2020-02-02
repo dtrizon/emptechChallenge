@@ -34,7 +34,7 @@
             }
         }
         else {
-            if($(input).val().trim() == ''){
+            if($(input).val().trim().length < 8){
                 return false;
             }
         }
